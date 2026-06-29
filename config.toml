@@ -1,4 +1,4 @@
-baseURL = "https://VOTRE-DOMAINE.com"
+baseURL = "https://abde21-dev.github.io/pbn-hugo-template/"
 languageCode = "fr-fr"
 title = "TITRE DU BLOG"
 theme = "PaperMod"
