@@ -109,9 +109,14 @@ jobs:
     needs: [deploy-github-pages, deploy-vercel, deploy-cloudflare]
     runs-on: ubuntu-latest
     continue-on-error: true
-    if: ${{ secrets.CUSTOM_DOMAIN != '' }}
     steps:
       - name: Ping Google sitemap
+        env:
+          CUSTOM_DOMAIN: ${{ secrets.CUSTOM_DOMAIN }}
         run: |
-          curl -s "https://www.google.com/ping?sitemap=https://${{ secrets.CUSTOM_DOMAIN }}/sitemap.xml"
-          echo "Sitemap soumis à Google : https://${{ secrets.CUSTOM_DOMAIN }}/sitemap.xml"
+          if [ -n "$CUSTOM_DOMAIN" ]; then
+            curl -s "https://www.google.com/ping?sitemap=https://$CUSTOM_DOMAIN/sitemap.xml"
+            echo "Sitemap soumis à Google : https://$CUSTOM_DOMAIN/sitemap.xml"
+          else
+            echo "Pas de domaine custom configuré, ping ignoré."
+          fi
