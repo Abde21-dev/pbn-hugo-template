@@ -1,0 +1,46 @@
+baseURL = "https://VOTRE-DOMAINE.com"
+languageCode = "fr-fr"
+title = "TITRE DU BLOG"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+
+[params]
+  description = "DESCRIPTION DU BLOG (160 caractères max)"
+  author = "Admin"
+  DateFormat = "2 January 2006"
+  defaultTheme = "light"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "TITRE PAGE ACCUEIL"
+  Content = "DESCRIPTION COURTE DU BLOG"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[menu]
+  [[menu.main]]
+    identifier = "accueil"
+    name = "Accueil"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "articles"
+    name = "Articles"
+    url = "/posts/"
+    weight = 2
