@@ -55,7 +55,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          cname: ${{ secrets.CUSTOM_DOMAIN }}
 
   # ─────────────────────────────────────────
   # ÉTAPE 2B : DEPLOY → VERCEL
@@ -109,6 +108,8 @@ jobs:
   ping-google:
     needs: [deploy-github-pages, deploy-vercel, deploy-cloudflare]
     runs-on: ubuntu-latest
+    continue-on-error: true
+    if: ${{ secrets.CUSTOM_DOMAIN != '' }}
     steps:
       - name: Ping Google sitemap
         run: |
