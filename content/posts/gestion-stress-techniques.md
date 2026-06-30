@@ -6,9 +6,9 @@ description: "Le stress chronique nuit à votre santé. Découvrez 5 techniques 
 categories: ["Stress", "Santé mentale"]
 tags: ["stress", "gestion stress", "relaxation", "bien-être", "anxiété"]
 cover:
-  image: "img/stress.png"
+  image: "/img/stress.png"
   alt: "Personne sereine respirant dans un environnement naturel"
-  relative: true
+  relative: false
 ---
 
 Le stress est devenu une épidémie silencieuse. Selon l'INRS, le stress au travail représente la deuxième cause de maladie professionnelle en France. Mais le stress ne se limite pas au cadre professionnel — il s'infiltre dans nos relations, notre sommeil, notre alimentation et notre santé physique.

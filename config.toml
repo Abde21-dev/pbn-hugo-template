@@ -23,6 +23,7 @@ enableRobotsTXT = true
   hiddenInList = false
   hiddenInSingle = false
   linkFullImages = true
+  responsiveImages = false
 
 [params.homeInfoParams]
   Title = "Bienvenue sur Vanuita"

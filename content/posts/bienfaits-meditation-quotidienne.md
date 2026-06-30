@@ -6,9 +6,9 @@ description: "Découvrez comment 10 minutes de méditation par jour peuvent tran
 categories: ["Méditation", "Santé mentale"]
 tags: ["méditation", "stress", "bien-être", "mindfulness"]
 cover:
-  image: "img/meditation.webp"
+  image: "/img/meditation.webp"
   alt: "Personne en méditation dans un espace calme et lumineux"
-  relative: true
+  relative: false
 ---
 
 La méditation n'est plus réservée aux moines tibétains ou aux adeptes du yoga avancé. Des millions de personnes dans le monde l'intègrent désormais à leur routine quotidienne, et les résultats scientifiques sont formels : quelques minutes de pleine conscience par jour suffisent à transformer profondément votre santé.

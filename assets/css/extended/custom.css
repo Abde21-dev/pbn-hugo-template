@@ -1,0 +1,31 @@
+/* Hero image page d'accueil */
+.home-info-container {
+  position: relative;
+  padding: 60px 20px;
+  margin-bottom: 30px;
+  background-image: url('/img/hero.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Overlay sombre pour lisibilité du texte */
+.home-info-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  border-radius: 12px;
+}
+
+/* Texte en blanc sur le hero */
+.home-info-container .entry-hint-parent,
+.home-info-container p,
+.home-info-container a,
+.home-info-container h1 {
+  position: relative;
+  z-index: 1;
+  color: #fff !important;
+}
