@@ -1,5 +1,5 @@
 /* Hero image page d'accueil */
-.home-info-container {
+.home-info {
   position: relative;
   padding: 60px 20px;
   margin-bottom: 30px;
@@ -9,10 +9,11 @@
   background-repeat: no-repeat;
   border-radius: 12px;
   overflow: hidden;
+  min-height: 300px;
 }
 
 /* Overlay sombre pour lisibilité du texte */
-.home-info-container::before {
+.home-info::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -21,10 +22,11 @@
 }
 
 /* Texte en blanc sur le hero */
-.home-info-container .entry-hint-parent,
-.home-info-container p,
-.home-info-container a,
-.home-info-container h1 {
+.home-info p,
+.home-info a,
+.home-info h1,
+.home-info .entry-content,
+.home-info .entry-header {
   position: relative;
   z-index: 1;
   color: #fff !important;
