@@ -1,4 +1,4 @@
-baseURL = "https://abde21-dev.github.io/pbn-hugo-template/"
+baseURL = "https://vanuita.fr/"
 languageCode = "fr-fr"
 title = "TITRE DU BLOG"
 theme = "PaperMod"
