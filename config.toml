@@ -1,12 +1,12 @@
 baseURL = "https://vanuita.fr/"
 languageCode = "fr-fr"
-title = "TITRE DU BLOG"
+title = "Vanuita — Bien-être & Équilibre"
 theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
 
 [params]
-  description = "DESCRIPTION DU BLOG (160 caractères max)"
+  description = "Conseils bien-être, méditation, sommeil et équilibre de vie pour prendre soin de vous au quotidien."
   author = "Admin"
   DateFormat = "2 January 2006"
   defaultTheme = "light"
@@ -18,8 +18,8 @@ enableRobotsTXT = true
   ShowToc = true
 
 [params.homeInfoParams]
-  Title = "TITRE PAGE ACCUEIL"
-  Content = "DESCRIPTION COURTE DU BLOG"
+  Title = "Bienvenue sur Vanuita"
+  Content = "Des conseils pratiques pour prendre soin de votre bien-être, améliorer votre sommeil et retrouver l'équilibre au quotidien."
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
