@@ -5,6 +5,10 @@ draft: false
 description: "Le stress chronique nuit à votre santé. Découvrez 5 techniques validées scientifiquement pour le réduire durablement et retrouver sérénité et équilibre."
 categories: ["Stress", "Santé mentale"]
 tags: ["stress", "gestion stress", "relaxation", "bien-être", "anxiété"]
+cover:
+  image: "img/stress.jpg"
+  alt: "Personne sereine respirant dans un environnement naturel"
+  relative: true
 ---
 
 Le stress est devenu une épidémie silencieuse. Selon l'INRS, le stress au travail représente la deuxième cause de maladie professionnelle en France. Mais le stress ne se limite pas au cadre professionnel — il s'infiltre dans nos relations, notre sommeil, notre alimentation et notre santé physique.

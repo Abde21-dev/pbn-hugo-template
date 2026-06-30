@@ -5,6 +5,10 @@ draft: false
 description: "Comment construire une routine matinale efficace qui améliore votre énergie, votre humeur et votre productivité. Guide pratique étape par étape."
 categories: ["Routine", "Énergie"]
 tags: ["routine matin", "productivité", "énergie", "bien-être", "habitudes"]
+cover:
+  image: "img/routine-matin.jpg"
+  alt: "Tasse de café et carnet sur une table au lever du soleil"
+  relative: true
 ---
 
 Les personnes les plus épanouies et productives partagent souvent un point commun : elles contrôlent leurs matins. Non pas en se levant à 4h du matin comme le veut une certaine tendance sur les réseaux, mais en créant une séquence d'actions qui les ancre, les énergise et les prépare à affronter la journée avec clarté.

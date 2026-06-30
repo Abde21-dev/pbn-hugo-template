@@ -5,6 +5,10 @@ draft: false
 description: "Vous avez du mal à dormir ? Découvrez 7 habitudes prouvées scientifiquement pour retrouver un sommeil profond et réparateur sans médicaments."
 categories: ["Sommeil", "Bien-être"]
 tags: ["sommeil", "insomnie", "habitudes", "santé", "récupération"]
+cover:
+  image: "img/sommeil.jpg"
+  alt: "Chambre paisible avec lumière douce propice au sommeil"
+  relative: true
 ---
 
 Un Français sur trois souffre de troubles du sommeil. Pourtant, la solution ne passe pas nécessairement par des somnifères. Des ajustements simples dans votre routine quotidienne peuvent transformer radicalement la qualité de vos nuits.

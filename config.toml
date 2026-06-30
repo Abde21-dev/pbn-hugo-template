@@ -1,5 +1,6 @@
 baseURL = "https://vanuita.fr/"
 languageCode = "fr-fr"
+defaultContentLanguage = "fr"
 title = "Vanuita — Bien-être & Équilibre"
 theme = "PaperMod"
 paginate = 10
@@ -7,7 +8,6 @@ enableRobotsTXT = true
 
 [params]
   description = "Conseils bien-être, méditation, sommeil et équilibre de vie pour prendre soin de vous au quotidien."
-  author = "Admin"
   DateFormat = "2 January 2006"
   defaultTheme = "light"
   ShowReadingTime = true
@@ -16,6 +16,13 @@ enableRobotsTXT = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = false
   ShowToc = true
+  ShowFullTextinRSS = false
+
+[params.cover]
+  hidden = false
+  hiddenInList = false
+  hiddenInSingle = false
+  linkFullImages = true
 
 [params.homeInfoParams]
   Title = "Bienvenue sur Vanuita"
