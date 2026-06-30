@@ -6,7 +6,7 @@ description: "Vous avez du mal à dormir ? Découvrez 7 habitudes prouvées scie
 categories: ["Sommeil", "Bien-être"]
 tags: ["sommeil", "insomnie", "habitudes", "santé", "récupération"]
 cover:
-  image: "img/sommeil.jpg"
+  image: "img/sommeil.webp"
   alt: "Chambre paisible avec lumière douce propice au sommeil"
   relative: true
 ---

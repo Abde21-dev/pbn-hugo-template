@@ -6,7 +6,7 @@ description: "Comment construire une routine matinale efficace qui améliore vot
 categories: ["Routine", "Énergie"]
 tags: ["routine matin", "productivité", "énergie", "bien-être", "habitudes"]
 cover:
-  image: "img/routine-matin.jpg"
+  image: "img/routine-matin.png"
   alt: "Tasse de café et carnet sur une table au lever du soleil"
   relative: true
 ---

@@ -6,7 +6,7 @@ description: "Le stress chronique nuit à votre santé. Découvrez 5 techniques 
 categories: ["Stress", "Santé mentale"]
 tags: ["stress", "gestion stress", "relaxation", "bien-être", "anxiété"]
 cover:
-  image: "img/stress.jpg"
+  image: "img/stress.png"
   alt: "Personne sereine respirant dans un environnement naturel"
   relative: true
 ---

@@ -6,7 +6,7 @@ description: "Découvrez comment 10 minutes de méditation par jour peuvent tran
 categories: ["Méditation", "Santé mentale"]
 tags: ["méditation", "stress", "bien-être", "mindfulness"]
 cover:
-  image: "img/meditation.jpg"
+  image: "img/meditation.webp"
   alt: "Personne en méditation dans un espace calme et lumineux"
   relative: true
 ---
