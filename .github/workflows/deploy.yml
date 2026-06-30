@@ -93,6 +93,12 @@ jobs:
           name: hugo-public
           path: ./public
 
+      - name: Debug - Lister projets Cloudflare
+        run: |
+          curl -s -X GET "https://api.cloudflare.com/client/v4/accounts/${{ secrets.CLOUDFLARE_ACCOUNT_ID }}/pages/projects" \
+            -H "Authorization: Bearer ${{ secrets.CLOUDFLARE_API_TOKEN }}" \
+            -H "Content-Type: application/json" | python3 -c "import sys,json; data=json.load(sys.stdin); [print(p['name']) for p in data.get('result',[])] or print('Aucun projet trouvé - erreur:', data.get('errors'))"
+
       - name: Deploy to Cloudflare Pages
         run: npx wrangler pages deploy ./public --project-name=${{ secrets.CLOUDFLARE_PROJECT_NAME }}
         env:
